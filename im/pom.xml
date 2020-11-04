@@ -6,18 +6,10 @@
         <artifactId>netty_im</artifactId>
         <groupId>top.chendaye666</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>train</artifactId>
-    <dependencies>
-<!--        在根pom中声明依赖，在子pom中要显示的指定依赖，不需要版本号；自动使用父pom中依赖的版本号-->
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-        </dependency>
-    </dependencies>
+    <artifactId>im</artifactId>
 
 
 </project>
