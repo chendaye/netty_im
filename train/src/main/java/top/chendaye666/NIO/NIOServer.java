@@ -9,6 +9,9 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 import java.util.Set;
 
+/**
+ * NIO
+ */
 public class NIOServer {
     public static void main(String[] args) throws IOException {
         Selector serverSelector = Selector.open();
