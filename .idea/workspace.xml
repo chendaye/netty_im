@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1b69d0f-33fc-44ab-86cb-deef977d47ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/learn/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/learn/NettyServer.java" afterDir="false" />
-    </list>
+    <list default="true" id="f1b69d0f-33fc-44ab-86cb-deef977d47ed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +75,7 @@
       <workItem from="1604539584449" duration="1536000" />
       <workItem from="1604713265336" duration="575000" />
       <workItem from="1605015487073" duration="1589000" />
+      <workItem from="1605090948398" duration="112000" />
     </task>
     <servers />
   </component>
