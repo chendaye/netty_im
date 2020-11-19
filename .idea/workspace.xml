@@ -20,14 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b69d0f-33fc-44ab-86cb-deef977d47ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/ClientServerCommunicate/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/ClientServerCommunicate/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/StartServerClient/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/ByteBufLearn/ByteBufLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/Serialize/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/Serialize/SerializerAlogrithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/Serialize/impl/JSONSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/Serialize/serialize.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/Serialize/test/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/Serialize/test/LoginRequestPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/Serialize/test/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/Serialize/test/PacketCodeC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/netty_im.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/netty_im.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/learn/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/im/src/main/java/top/chendaye666/StartServerClient/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,7 +71,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/train" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -92,6 +98,7 @@
       <workItem from="1605524553055" duration="1261000" />
       <workItem from="1605681118543" duration="48000" />
       <workItem from="1605715359598" duration="1929000" />
+      <workItem from="1605782260984" duration="4638000" />
     </task>
     <servers />
   </component>
@@ -111,25 +118,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="448" y="132" key="#Project_Structure" timestamp="1605183123719">
+    <state x="448" y="132" key="#Project_Structure" timestamp="1605802347700">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="448" y="121" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1604595991900" />
-    <state x="448" y="132" key="#Project_Structure/0.23.1920.977@0.23.1920.977" timestamp="1605183123719" />
+    <state x="448" y="132" key="#Project_Structure/0.23.1920.977@0.23.1920.977" timestamp="1605802347700" />
     <state x="2726" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1604539800082">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2726" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604539800082" />
-    <state x="498" y="202" key="Maven.ArtifactSearchDialog" timestamp="1604596425983">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="498" y="206" key="Maven.ArtifactSearchDialog" timestamp="1605801879028">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="498" y="202" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604596425983" />
+    <state x="498" y="206" key="Maven.ArtifactSearchDialog/0.23.1920.977@0.23.1920.977" timestamp="1605801879028" />
     <state x="440" y="113" key="SettingsEditor" timestamp="1605183041866">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="2360" y="95" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604539826326" />
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604596381286" />
     <state x="440" y="113" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1605183041866" />
+    <state x="672" y="284" key="refactoring.ChangeSignatureDialog" timestamp="1605798548306">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="672" y="284" key="refactoring.ChangeSignatureDialog/0.23.1920.977@0.23.1920.977" timestamp="1605798548306" />
     <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1605183962283">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
